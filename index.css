@@ -1,0 +1,57 @@
+* {box-sizing: border-box;}
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+.nav{
+    background-color: #0c0f0f;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    padding: 10px 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.nav a{
+    float:left;
+    color:#e3e1e8;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image{
+    padding: 28px ;
+    background-color:#151e21;
+    text-align: center;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    line-height: 100%;
+    color:#e3e1e8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+}
+.about{
+    padding:10px;
+    text-align: center;
+
+}
+.about h1{
+    color:#151e21;
+    font-style: italic;
+}
+.about hr{
+    width:20%;
+    color: #151e21;
+}
+.about p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+}
+.about li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+}
