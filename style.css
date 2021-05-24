@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+    margin:0;
+    top:0;
+}
+
+
+.main-contain{
+    margin: auto;
+    width:90%;
+}
+.one{
+    display: block;
+}
+
+.header{
+    width: 100%;
+    margin-top:2%;
+    display:flexbox;
+}
+.header a.active{
+    color:/*#30D5C8*/ #1a7870;
+    font-weight: 600;
+}
+.header a:hover{
+    color:#3d4747;
+    font-weight: 600;
+}
+.logo{
+    float: left;
+    width: max-content;
+}
+
+.logo a{
+    font-family: 'Condiment', cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.head-mid{
+    margin: auto;
+    text-align: center;
+    width: max-content;
+   
+}
+.head-mid a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.head-lang{
+    float:right;
+    margin-top: 0%;
+    width: max-content;
+}
+
+.head-lang a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
