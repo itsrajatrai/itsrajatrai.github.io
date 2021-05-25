@@ -235,3 +235,26 @@ td{
     width:32px;
     padding:5px;
 }
+
+.exp-det{
+    width:100%;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.exp-det h2{
+    color: #1a7870;
+}
+
+.exp-det b{
+    color: #1a7870;
+}
+
+.exp-det li{
+    color: #1a7870;
+}
+
