@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+    margin:0;
+    top:0;
+}
+
+
+.main-contain{
+    margin: auto;
+    width:90%;
+    height: 100%;
+}
+.one{
+    display:inline-block;
+    width:100%;
+    
+}
+
+.header{
+    width: 100%;
+    margin-top:2%;
+    display:flexbox;
+}
+.header a.active{
+    color:/*#30D5C8*/ #1a7870;
+    font-weight: 600;
+}
+.header a:hover{
+    color:#3d4747;
+    font-weight: 600;
+}
+.logo{
+    float: left;
+    width: max-content;
+}
+
+.logo a{
+    font-family: 'Condiment', cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.head-mid{
+    margin: auto;
+    text-align: center;
+    width: max-content;
+   
+}
+.head-mid a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.head-lang{
+    float:right;
+    margin-top: 0%;
+    width: max-content;
+}
+
+.head-lang a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.min-content{
+    margin-top: 10%;
+    width:80%;
+    margin:auto;   
+    
+}
+
+.min-intro{
+    float:left;
+    margin-top: 15%;
+    width: 60%;
+}
+.msg-1{
+    font-family: 'Dosis', sans-serif;
+    color: #3d4747;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.msg-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.msg-3{
+    font-family: 'Dosis', sans-serif;
+    color: #3d4747;
+    font-weight: 500;
+}
+
+.cv-button button{
+    border:0ch;
+    padding: 7px;
+    background-color: #1a7870;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.cv-button button:hover{
+    cursor: pointer;
+    background-color:#3d4747;
+    color: #fff;
+}
+
+.min-img{
+    margin-top: 5%;
+    float:right;
+    width: 40%;
+}
+.min-down{
+    margin: auto;
+    width: max-content;
+}
+.min-down img{
+    margin-top: 65px;
+    width:110px;
+}
+/* Image Up-down Movement*/
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.two{
+    display:inline-block;
+    width:100%;
+    border-radius: 12px;
+    padding:10px;
+   
+}
+.abt-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #1a7870;
+}
+.abt-hr{
+    width:20%;
+    color: #1a7870;
+}
+.abt{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: justify;
+}
+.Skill-tech{
+    width:100%;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.Skill-tech h2{
+    text-align: center;
+    color: #1a7870;
+}
+
+.skill{
+    width:50%;
+    float:left;
+  
+
+}
+
+
+.container {
+    width: 80%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 12px;
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .web{width: 90%; background-color:#1a7870;} 
+  .ml {width: 70%; background-color: #1a7870;} 
+  .ad{width: 40%; background-color: #1a7870;} 
+  .do {width: 20%; background-color: #1a7870;} 
+
+  
+.tech{
+    width:50%;
+    float: right;
+}
+.tech-table{
+    padding: 10px;
+}
+
+.tech-table table{
+display: flex;
+width: 100%;
+}
+td{
+    padding: 10px;
+}
+.tech-table img{
+    display: block;
+    width:32px;
+    padding:5px;
+}
+
+.exp-det{
+    width:100%;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.exp-det h2{
+    color: #1a7870;
+}
+
+.exp-det b{
+    color: #1a7870;
+}
+
+.exp-det li{
+    color: #1a7870;
+}
+
