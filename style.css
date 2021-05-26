@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
   }
+ html {
+    scroll-behavior: smooth;
+  }
   
 body{
     margin:0;
@@ -25,6 +28,10 @@ body{
     display:flexbox;
 }
 .header a.active{
+    color:/*#30D5C8*/ #1a7870;
+    font-weight: 600;
+}
+.header a:active{
     color:/*#30D5C8*/ #1a7870;
     font-weight: 600;
 }
@@ -150,10 +157,10 @@ img.vert-move {
 }
 
 .two{
-    display:inline-block;
+    display:flexbox;
     width:100%;
-    border-radius: 12px;
     padding:10px;
+    margin-block-end: 20px;
    
 }
 .abt-title{
