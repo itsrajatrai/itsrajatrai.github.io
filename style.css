@@ -265,3 +265,22 @@ td{
     color: #1a7870;
 }
 
+
+
+.up{
+    z-index: 2;
+    width: max-content;
+    float:right;
+    background-color: #ddd;
+    border-radius: 100%;
+    border: #1a7870;
+    border-style:solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: sticky;
+
+   
+}
+.up img{
+width:70px;
+}
+
