@@ -50,7 +50,21 @@ body{
     color: black;
     text-decoration: none;
 }
+/*Header for Comming Soon*/
+.mid{
+    top:50px;
+    margin: auto;
+    text-align: center;
+    width: max-content;
+}
 
+.mid a{
+        font-family: 'Condiment', cursive;
+        font-size: 30px;
+        color: black;
+        text-decoration: none;
+        padding:10px;
+}
 
 .head-mid{
     margin: auto;
@@ -282,5 +296,74 @@ td{
 }
 .up img{
 width:70px;
+}
+
+/* CSS for the Comming Soon page*/
+
+.co-main{
+    margin: auto;
+    margin-top: 5%;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.co-contain{
+    margin: auto;
+    margin-top: 10%;
+    background-color:#212529;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.co-text{
+    margin: auto;
+    color:#212529;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+    font-size: 20px;
+}
+.sm-logo{
+    margin: auto;
+    color:#212529;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+    font-size: 20px;
+}
+.sm-logo img{
+    width:40px;
+    display: block;
+    padding:5px;
+    cursor: pointer;
+}
+.co-footer{
+    bottom:0px;
+    display: inline-flexbox;
+    width:100%;
+    justify-content: center;
+    font-family:cursive;
+    font-size: 20px;
+    position:absolute;
+    background-color: #1a7870;
+    color:#ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.co-msg{
+    margin: auto;
+    color:#ddd;
+    width:max-content;
+    display:flex;
+    justify-content: center;
+    font-family:cursive;
+    font-size: 20px;
 }
 
