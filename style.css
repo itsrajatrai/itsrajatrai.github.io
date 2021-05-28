@@ -52,16 +52,18 @@ body{
 }
 /*Header for Comming Soon*/
 .mid{
-    top:50px;
+    top:10%;
     margin: auto;
     text-align: center;
-    width: max-content;
+    width: 100%;
+    background-color: #212529;
+    padding:10px;
 }
 
 .mid a{
         font-family: 'Condiment', cursive;
         font-size: 30px;
-        color: black;
+        color:#ddd;
         text-decoration: none;
         padding:10px;
 }
