@@ -369,3 +369,46 @@ width:70px;
     font-size: 20px;
 }
 
+/* Styling for Contact Page*/
+
+.cont{
+ 
+    display: flex;
+    align-self: stretch;
+    margin: auto;
+    margin-top: 5%;
+    width:80%;
+    padding-inline: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.cont-left{
+    margin: 40px;
+    padding-inline: 20px;
+    float: left;
+    margin-left: 10px;
+    color:#ddd;
+    background-color: #1a7870;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cont-right{
+    margin: 40px;
+    padding-inline: 20px;
+    float: right;
+    margin-right: 10px;
+    color:#ddd;
+    background-color: #1a7870;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:60%;
+    display: flex;
+
+}
+
